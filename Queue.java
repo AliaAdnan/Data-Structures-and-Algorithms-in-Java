@@ -1,8 +1,7 @@
-
-public interface Queue <E>{
+public interface Queue<E> {
     boolean isEmpty();
     int size();
-    void enqueue( E element);
+    void enqueue(E e);
     E dequeue();
     E first();
 }
