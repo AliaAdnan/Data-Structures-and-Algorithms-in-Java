@@ -1,6 +1,9 @@
+package SinglyLikedList;
+
 public class Rotate {
     static class LinkedList {
-        Node head; 
+        Node head; // head of list
+
         /* Linked list Node*/
         class Node {
             int data;
@@ -11,6 +14,7 @@ public class Rotate {
                 next = null;
             }
         }
+
         // This function rotates a linked list counter-clockwise
         // and updates the head. The function assumes that k is
         // smaller than size of linked list. It doesn't modify
@@ -102,6 +106,5 @@ public class Rotate {
             System.out.println("Rotated Linked List");
             llist.printList();
         }
-    }
+    } /* This code is contributed by Rajat Mishra */
 }
-
